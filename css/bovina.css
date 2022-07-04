@@ -1,0 +1,16 @@
+.titulo {
+    text-align: center;
+    color: #febd69;
+    background-color: rgb(168, 168, 151);
+}
+
+.h4 {
+    font-size: 40px;
+    color: #febd69;
+}
+
+.bovina {
+    font-weight: bolder;
+    line-height: 1.3em;
+    display: flex;
+}

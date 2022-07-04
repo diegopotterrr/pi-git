@@ -1,0 +1,16 @@
+.h1 {
+    text-align: center;
+    color: red;
+    background-color: rgb(241, 241, 207);
+}
+
+.myButton:hover {
+    background: #37475a;
+    color: rgb(177, 46, 46);
+    transition: 0.3s all;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
