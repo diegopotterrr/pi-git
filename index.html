@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista Check0">
+    <meta name="keywords" content="Projeto PI, Papelaria, listas, vendas">
+    <meta name="author" content="Grupo PI">
+    <title>Açougue do potter</title>
+    <link rel="icon" type="image/x-icon" href="img/2022.png">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="bovinos.html" />
+</head>
+
+<body>
+
+    <!-- =================================================================== -->
+    <!--                        Navbar do site                               -->
+    <!-- =================================================================== -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
+                <a class="navbar-brand mt-10 mb-10" href="index.html">
+                    <div class="H_div">
+                        <span class="c_lista">Açougue</span><br>
+                        <span class="c_check">Potter</span>
+
+                    </div>
+
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse" style>
+
+                    <!-- ======================================================================= -->
+                    <!--                  Barra DE PESQUISA                                      -->
+                    <!-- ======================================================================= -->
+                    <form action="LINKTESTE.php" method="post" class="d-inline wd-search d-flex">
+                        <div class="dropdown">
+                            <!------------------------->
+                            <!--Selecionar Categorias-->
+                            <!------------------------->
+                            <button class="d-inline btn-outline-menu-navbar btn_cor btn_border btn dropdown-toggle ms-0 me-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Açougue
+                                </button>
+
+                        </div>
+                        <input value="" class="btn-outline-menu-navbar form_border form-control ms-1" type="search" placeholder="Pesquise aqui o seu Produto" aria-label="pesquisar">
+                        <button class="btn-outline-menu-navbar btn_border_search btn_search btn-outline-search" type="submit">
+                                <img src="img/pesquisa.png" alt="imagem botão de pesquisa / search button image">
+                            </button>
+                    </form>
+                    <!-- ======================================================================= -->
+                    <!--                           LOGIN PEDIDOS CARRINHO                        -->
+                    <!-- ======================================================================= -->
+                    <ul class="hover_container navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="pedidos.html">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html">Carrinho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bold" href="carrinho.html"></a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+        <!-- =============================================================== -->
+        <!--                    Barra de Categorias                          -->
+        <!-- =============================================================== -->
+        <div class="container-fluid menucateg">
+            <ul class="nav nav-fill">
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-menu-navbar dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+                        <li><a class="dropdown-item" href="">Bovinos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="">Suínos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="">Avés</a></li>
+                        <li>
+
+
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="bovinos.html">Bovinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="suinos.html">Suínos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="aves.html">Avés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="cortes.html">Cortes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="sobre.html">Sobre</a>
+                    </li>
+
+            </ul>
+        </div>
+    </header>
+    <section>
+        <!-- ======================================================================= -->
+        <!--             Carrossel                                                   -->
+        <!-- ======================================================================= -->
+        <div class="container-fluid">
+            <div class="carroselBanner">
+                <div id="carrosel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carrosel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="img/carne 01.jpg" class="d-block w-100" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/carne 02.jpg" class="d-block w-100" class="img-fluid" alt="...">
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/carne 04.webp" class="d-block w-100" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrosel1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrosel1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <h1 class="h1">Promoção</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 0001.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Picanha</h5>
+                    <p class="card-text">A Picanha é um tipo de corte de carne bovina tipicamente brasileira. A origem do nome Picanha advém do tratamento talhante Italiano, nomeadamente do corte Picatta. Esta vara, chamada picana</p>
+                </div>
+                <div class="card-footer">
+                    <a href="bovinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted">65,90</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 01.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Contra filé</h5>
+                    <p class="card-text">O Contrafilé é o mais longo corte da carne bovina, podendo conter também a Capa do contra filé. É localizada na parte traseira do animal e representa, aproximadamente, 13,43% da carcaça.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="bovinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted">Promoção 45,90</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 001.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Filé Mignon</h5>
+                    <p class="card-text">O filé mignon é um tipo de corte de carne bovina. É a parte mais tenra da ponta do filé. É localizada na parte traseira do animal e representa, aproximadamente, 2,95% da carcaça. É o corte mais macio da carne bovina e quase não contém
+                        gordura
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="bovinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Comprar
+                    </button></a>
+                    <small class="text-muted">Promoção <n>65,90</n></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 02.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lombo Suíno</h5>
+                    <p class="card-text">O Lombo é dos cortes suínos mais conhecidos pelo consumidor, extremamente magro, com pouca quantidade de calorias e gorduras</p>
+                </div>
+                <div class="card-footer">
+                    <a href="suinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted"> promoção 19,90</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 002.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Barrigada</h5>
+                    <p class="card-text"> A barriga é suculenta e de sabor marcante, fica mais gostosa e macia quando submetida a cozimento lento, pode ser feito na panela ou no forno</p>
+                </div>
+                <div class="card-footer">
+                    <a href="suinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted">Promoção 19,50</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 0002.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Costelinha suína</h5>
+                    <p class="card-text">Costelinha de porco, a spare ribs é um corte obitido da porção lombar do suíno. É um corte grande, começa no peito e vai até a parte mais traseira do porco. Uma característica dessa região são os ossos mais retos e um pouco mais espaçados
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="suinos.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Comprar
+                    </button></a>
+                    <small class="text-muted">Promoção <n>23,90</n></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 003.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Coxa e sobre coxa</h5>
+                    <p class="card-text">produto em grande escala, podendo ser assado, cozido, frito ou grelhado. faça receitas deliciosas utilizando este produto!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="aves.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted"> promoção 11,90</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Frango Inteiro</h5>
+                    <p class="card-text">Frango inteiro congelado, com um peso variando entre 1,5kg e 2kg. Perfeito para assar, com a carne mais firme e sabor inigualável</p>
+                </div>
+                <div class="card-footer">
+                    <a href="aves.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Comprar
+                        </button></a>
+                    <small class="text-muted">Promoção 12,90</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/carde 0003.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">asa de frango</h5>
+                    <p class="card-text">algumas regiões do Brasil, é um corte muito comum em churrascos e, por sua versatilidade, é uma opção excelente também para as refeições diárias. Pode ser preparado na grelha, no forno, assada ou frita
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="aves.html">
+                        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Comprar
+                    </button></a>
+                    <small class="text-muted">Promoção <n>18,90</n></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script>
+        window.alert('Bem vindo ao Açougue do potter!!')
+    </script>
+
+    <!--=======================================================================- ->
+        <!-                          RODAPE DO SITE                                 -->
+    <!-- ======================================================================= -->
+    </div>
+    <div class="container-fluid">
+        <footer class="bg-rodape">
+            <div class="">
+                <div class="d-flex justify-content-center">
+                    <ul class="pr-5 pt-2 ml-5 row footer_style">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5>Institucional</h5>
+                            <ul class="footer-alinhamento nav flex-column">
+                                <li class="nav-item mb-2"><a class="lista_footer" href="sobre_nos.hmtl">Sobre nós</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="trabalhe_conosco.hmtl">Trabalhe
+                                            Conosco</a></li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="fale_conosco.html">Fale
+                                            Conosco</a>
+                                </li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="mapa_do_site.html">Mapa do
+                                            Site</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5>Dúvidas</h5>
+                            <ul class="footer-alinhamento nav flex-column teste">
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Como funciona o
+                                            Açougue</a></li>
+                                <li class="nav-item mb-2">
+                                    <a class="lista_footer" href="duvidas.html">
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">Segurança</a></li>
+                                <li class="nav-item mb-2"><a class="lista_footer" href="duvidas.html">alvará do açougue</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5>Redes Sociais</h5>
+                            <ul class="footer-alinhamento nav flex-column">
+                                <li class="ms-1">
+                                    <a class="lista_footer mb-2" href="#"><img src="img/instagram.png"> Instagram
+                                    </a>
+                                </li>
+                                <li class="ms-1">
+                                    <a class="lista_footer mb-2" href="#"><img src="img/facebook.png"> Facebook
+                                    </a>
+                                </li>
+                                <li class="ms-1">
+                                    <a class="lista_footer mb-2" href="#"><img src="img/twitter.png"> Twitter
+                                    </a>
+                                </li>
+                                <li class="ms-1 ">
+                                    <a class="lista_footer mb-2" href="#"><img src="img/youtube.png"> Youtube
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5>Formas de Pagamento</h5>
+                            <ul class="footer-alinhamento mb-5 nav flex-column">
+                                <li class="lista_footer mb-2">Cartões de crédito</li>
+                                <li class="lista_footer mb-2">Boleto bancário</li>
+                                <li class="lista_footer mb-2">PIX</li>
+                            </ul>
+                        </div>
+                        <div class="Linha-rodape"></div>
+                        <div class="pt-3 mt-3 container footer_end">
+                            <h6>Açougue do potter Rua Major Gote, 808 - Caiçaras, Patos de Minas - MG</h6>
+                            <br>
+                            <h6>Telefone de contato: (34) 3823-0300</h6>
+                            <span class="d-flex justify-content-end ">
+
+                            </span>
+                        </div>
+                </div>
+                </ul>
+            </div>
+        </footer>
+        <!-- =================================================================== -->
+        <!--                           SCRIPTS DO SITE                           -->
+        <!-- =================================================================== -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+</body>
+
+
+</html>
